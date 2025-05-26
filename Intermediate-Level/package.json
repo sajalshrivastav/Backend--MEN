@@ -1,0 +1,25 @@
+{
+  "name": "intermediate-level",
+  "version": "1.0.0",
+  "description": "Full STakc Todo list application with authentication using SQLite",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env --experimental-sqlite --experimental-strip-types ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
